@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "blocks/minecraft_skin",
+		"particle": "blocks/bed_feet_top_cut"
+	},
+	"elements": [
+		{
+			"from": [7.5, 2.9375, 9],
+			"to": [7.5625, 3, 9.0625],
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#2"},
+				"east": {"uv": [0, 2, 2, 4], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#2"},
+				"west": {"uv": [4, 2, 6, 4], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [2, 0, 4, 2], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [6, 2, 4, 0], "rotation": 180, "texture": "#2"}
+			}
+		}
+	]
+}
